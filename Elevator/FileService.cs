@@ -31,6 +31,23 @@ namespace Elevator
             return result;
         }
 
+        public static void GenerateOutput(List<Passenger> passengers)
+        {
+            try
+            {
+                using(StreamWriter writer = new StreamWriter(path + "/../result.txt"))
+                {
+                    foreach(Passenger p in passengers)
+                    {
+                        writer.WriteLine(p.Print());
+                    }
+                }
+            } catch (Exception e)
+            {
+                Console.WriteLine("Error writing result to file: " + e.Message);
+            }
+        }
+
         /// <summary>
         /// separates each line and puts the values in an int array. Catches exception if any values can't be converted.
         /// </summary>
