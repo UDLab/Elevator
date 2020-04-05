@@ -32,7 +32,7 @@ namespace Elevator
         }
 
         /// <summary>
-        /// separates each line and puts the values in an int array. Catches exception if any non-number values can't be converted.
+        /// separates each line and puts the values in an int array. Catches exception if any values can't be converted.
         /// </summary>
         /// <param name="lines"></param>
         /// <returns></returns>
@@ -50,7 +50,7 @@ namespace Elevator
                         numbers[i] = Int32.Parse(separated[i]);
                     } catch (Exception e)
                     {
-                        Console.WriteLine("Error read values in input file: " + e.Message);
+                        Console.WriteLine("Error reading values in input file: " + e.Message);
                     }
                 }
                 res.Add(numbers);
