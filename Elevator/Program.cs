@@ -7,6 +7,8 @@ namespace Elevator
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Console.WriteLine("Press ANYTHING to exit...");
+            Console.ReadLine();
         }
     }
 }
