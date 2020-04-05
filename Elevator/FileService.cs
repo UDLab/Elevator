@@ -7,9 +7,14 @@ namespace Elevator
 {
     public class FileService
     {
-        static string path = Path.GetDirectoryName(Path.GetDirectoryName(System.IO.Directory.GetCurrentDirectory()));
+        // Paths to files placed in the same folder as the rest of the class files.
+        static string path = Path.GetDirectoryName(Path.GetDirectoryName(Directory.GetCurrentDirectory()));
         static string file = "/../sample.txt";
 
+        /// <summary>
+        /// Reads content from file and converts it to a list of int arrays. 
+        /// </summary>
+        /// <returns></returns>
         public static List<int[]> GetPassengers()
         {
             List<int[]> result = new List<int[]>();
@@ -17,7 +22,7 @@ namespace Elevator
             try
             {
                 string[] lines = File.ReadAllLines(path + file);
-                result = ConvertToIntList(lines);
+                result = ConvertToIntArrayList(lines);
             } catch (Exception e)
             {
                 Console.WriteLine("Error reading input file: " + e.Message);
@@ -26,7 +31,12 @@ namespace Elevator
             return result;
         }
 
-        private static List<int[]> ConvertToIntList(string[] lines)
+        /// <summary>
+        /// separates each line and puts the values in an int array. Catches exception if any non-number values can't be converted.
+        /// </summary>
+        /// <param name="lines"></param>
+        /// <returns></returns>
+        private static List<int[]> ConvertToIntArrayList(string[] lines)
         {
             List<int[]> res = new List<int[]>();
             foreach(string line in lines)
