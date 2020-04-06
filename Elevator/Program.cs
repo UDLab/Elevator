@@ -52,8 +52,9 @@ namespace Elevator
         {
             Thread.Sleep(100);
             Console.Clear();
-            for (int i = 0; i < building.Floors.Count; i++)
+            for (int i = building.Floors.Count -1 ; i > 0; i--)
             {
+                Console.Write("[FLOOR {0}] : ", i);
                 if (building.Elevator.AtFloor == i)
                 {
                     building.Elevator.Print();
