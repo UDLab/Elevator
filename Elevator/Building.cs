@@ -20,6 +20,18 @@ namespace Elevator
             }
         }
 
+        public bool HasWaitingPassengers()
+        {
+            foreach(Floor f in Floors)
+            {
+                if(f.Queue.Count > 0)
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
         /// <summary>
         /// Adds a list of passengers to the specified floor.
         /// </summary>

@@ -16,7 +16,10 @@ namespace Elevator
         }
         public void Add(Passenger p)
         {
-            Queue.Add(p);
+            if(p.GetDestination() != -1)
+            {
+                Queue.Add(p);
+            }
         }
 
         public void Remove(Passenger p)

@@ -23,11 +23,12 @@ namespace Elevator
         {
             input = FileService.GetInput();
             building = new Building(10, 10);
+            AddNewPassengersToQueue();
         }
 
         private static void Start()
         {
-            while (input.Count > 0 || building.Elevator.Riders.Count > 0)
+            while (building.HasWaitingPassengers() || building.Elevator.Riders.Count > 0)
             {
                 time += 10;
                 AddNewPassengersToQueue();
@@ -109,7 +110,7 @@ namespace Elevator
             switch (building.Elevator.Status)
             {
                 case ElevatorStatus.GOING_UP:
-                    if(building.Elevator.AtFloor < building.NrOfFloors)
+                    if(building.Elevator.AtFloor + 1 < building.NrOfFloors)
                     {
                         building.Elevator.Move(1);
                     } else
@@ -119,7 +120,7 @@ namespace Elevator
                     }
                     break;
                 case ElevatorStatus.GOING_DOWN:
-                    if (building.Elevator.AtFloor > building.NrOfFloors)
+                    if (building.Elevator.AtFloor > 0)
                     {
                         building.Elevator.Move(-1);
                     }
