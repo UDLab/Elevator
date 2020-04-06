@@ -11,7 +11,6 @@ namespace Elevator
         static void Main(string[] args)
         {
             Initiate();
-            FileService.PrintPath();
             Console.ReadLine();
         }
 
