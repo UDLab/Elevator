@@ -50,7 +50,7 @@ namespace Elevator
 
         private static void Print()
         {
-            Thread.Sleep(100);
+            Thread.Sleep(50);
             Console.Clear();
             for (int i = building.Floors.Count -1 ; i > 0; i--)
             {

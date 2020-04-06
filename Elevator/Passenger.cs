@@ -41,7 +41,7 @@ namespace Elevator
         /// <returns></returns>
         public string Print()
         {
-            return String.Format("[{0}] Arrived: t{1} - enter t{2} - destination t{3} - total {4}ms", no, arrivedTime, elevatorEnteringTime, elevatorLeavingTime, (elevatorLeavingTime - arrivedTime));
+            return String.Format("{0},{1},{2},{3},{4},{5},{6},{7}", no, arrivedFloor, destinationFloor, arrivedTime, elevatorLeavingTime, (elevatorEnteringTime - arrivedTime), (elevatorLeavingTime - elevatorEnteringTime), (elevatorLeavingTime - arrivedTime));
         }
 
         public void AddEnteringTime(int time)

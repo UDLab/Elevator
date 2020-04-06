@@ -1,101 +1,101 @@
-[1] Arrived: t0 - enter t10 - destination t20 - total 20ms
-[6] Arrived: t0 - enter t10 - destination t20 - total 20ms
-[7] Arrived: t0 - enter t10 - destination t30 - total 30ms
-[10] Arrived: t0 - enter t20 - destination t30 - total 30ms
-[13] Arrived: t0 - enter t20 - destination t30 - total 30ms
-[2] Arrived: t0 - enter t10 - destination t40 - total 40ms
-[9] Arrived: t0 - enter t20 - destination t40 - total 40ms
-[16] Arrived: t0 - enter t30 - destination t40 - total 40ms
-[11] Arrived: t0 - enter t20 - destination t60 - total 60ms
-[19] Arrived: t0 - enter t30 - destination t60 - total 60ms
-[94] Arrived: t30 - enter t50 - destination t60 - total 30ms
-[3] Arrived: t0 - enter t10 - destination t70 - total 70ms
-[12] Arrived: t0 - enter t20 - destination t70 - total 70ms
-[4] Arrived: t0 - enter t10 - destination t90 - total 90ms
-[37] Arrived: t10 - enter t60 - destination t90 - total 80ms
-[40] Arrived: t10 - enter t60 - destination t90 - total 80ms
-[49] Arrived: t10 - enter t70 - destination t90 - total 80ms
-[96] Arrived: t30 - enter t70 - destination t90 - total 60ms
-[99] Arrived: t30 - enter t70 - destination t90 - total 60ms
-[5] Arrived: t0 - enter t10 - destination t100 - total 100ms
-[18] Arrived: t0 - enter t30 - destination t100 - total 100ms
-[41] Arrived: t10 - enter t60 - destination t100 - total 90ms
-[50] Arrived: t10 - enter t70 - destination t100 - total 90ms
-[113] Arrived: t30 - enter t90 - destination t100 - total 70ms
-[116] Arrived: t30 - enter t110 - destination t130 - total 100ms
-[114] Arrived: t30 - enter t110 - destination t140 - total 110ms
-[115] Arrived: t30 - enter t110 - destination t150 - total 120ms
-[111] Arrived: t30 - enter t110 - destination t160 - total 130ms
-[38] Arrived: t10 - enter t140 - destination t180 - total 170ms
-[88] Arrived: t20 - enter t100 - destination t190 - total 170ms
-[118] Arrived: t30 - enter t100 - destination t190 - total 160ms
-[29] Arrived: t0 - enter t110 - destination t190 - total 190ms
-[87] Arrived: t20 - enter t110 - destination t190 - total 170ms
-[112] Arrived: t30 - enter t110 - destination t190 - total 160ms
-[117] Arrived: t30 - enter t110 - destination t190 - total 160ms
-[44] Arrived: t10 - enter t130 - destination t190 - total 180ms
-[93] Arrived: t30 - enter t150 - destination t190 - total 160ms
-[23] Arrived: t0 - enter t160 - destination t190 - total 190ms
-[8] Arrived: t0 - enter t180 - destination t190 - total 190ms
-[60] Arrived: t20 - enter t190 - destination t200 - total 180ms
-[65] Arrived: t20 - enter t190 - destination t200 - total 180ms
-[66] Arrived: t20 - enter t190 - destination t210 - total 190ms
-[68] Arrived: t20 - enter t200 - destination t210 - total 190ms
-[61] Arrived: t20 - enter t190 - destination t220 - total 200ms
-[67] Arrived: t20 - enter t200 - destination t220 - total 200ms
-[20] Arrived: t0 - enter t210 - destination t230 - total 230ms
-[62] Arrived: t20 - enter t190 - destination t250 - total 230ms
-[21] Arrived: t0 - enter t210 - destination t250 - total 250ms
-[63] Arrived: t20 - enter t190 - destination t270 - total 250ms
-[14] Arrived: t0 - enter t200 - destination t270 - total 270ms
-[109] Arrived: t30 - enter t260 - destination t270 - total 240ms
-[64] Arrived: t20 - enter t190 - destination t280 - total 260ms
-[89] Arrived: t30 - enter t190 - destination t280 - total 250ms
-[15] Arrived: t0 - enter t200 - destination t280 - total 280ms
-[100] Arrived: t30 - enter t250 - destination t280 - total 250ms
-[53] Arrived: t10 - enter t260 - destination t280 - total 270ms
-[110] Arrived: t30 - enter t260 - destination t280 - total 250ms
-[56] Arrived: t10 - enter t300 - destination t310 - total 300ms
-[28] Arrived: t0 - enter t300 - destination t320 - total 320ms
-[54] Arrived: t10 - enter t300 - destination t320 - total 310ms
-[55] Arrived: t10 - enter t300 - destination t330 - total 320ms
-[51] Arrived: t10 - enter t300 - destination t340 - total 330ms
-[45] Arrived: t10 - enter t310 - destination t340 - total 330ms
-[39] Arrived: t10 - enter t320 - destination t340 - total 330ms
-[86] Arrived: t20 - enter t300 - destination t360 - total 340ms
-[42] Arrived: t10 - enter t320 - destination t360 - total 350ms
-[27] Arrived: t0 - enter t300 - destination t370 - total 370ms
-[52] Arrived: t10 - enter t300 - destination t370 - total 360ms
-[57] Arrived: t10 - enter t300 - destination t370 - total 360ms
-[85] Arrived: t20 - enter t300 - destination t370 - total 350ms
-[81] Arrived: t20 - enter t340 - destination t370 - total 350ms
-[17] Arrived: t0 - enter t350 - destination t370 - total 370ms
-[22] Arrived: t0 - enter t350 - destination t370 - total 370ms
-[33] Arrived: t10 - enter t350 - destination t370 - total 360ms
-[71] Arrived: t20 - enter t380 - destination t390 - total 370ms
-[74] Arrived: t20 - enter t390 - destination t400 - total 380ms
-[78] Arrived: t20 - enter t390 - destination t410 - total 390ms
-[69] Arrived: t20 - enter t380 - destination t420 - total 400ms
-[34] Arrived: t10 - enter t390 - destination t420 - total 410ms
-[77] Arrived: t20 - enter t390 - destination t420 - total 400ms
-[70] Arrived: t20 - enter t380 - destination t430 - total 410ms
-[79] Arrived: t20 - enter t390 - destination t430 - total 410ms
-[72] Arrived: t20 - enter t380 - destination t450 - total 430ms
-[73] Arrived: t20 - enter t380 - destination t460 - total 440ms
-[76] Arrived: t20 - enter t390 - destination t460 - total 440ms
-[107] Arrived: t30 - enter t480 - destination t490 - total 460ms
-[106] Arrived: t30 - enter t480 - destination t500 - total 470ms
-[47] Arrived: t10 - enter t490 - destination t500 - total 490ms
-[104] Arrived: t30 - enter t480 - destination t520 - total 490ms
-[98] Arrived: t30 - enter t490 - destination t520 - total 490ms
-[105] Arrived: t30 - enter t480 - destination t530 - total 500ms
-[108] Arrived: t30 - enter t480 - destination t530 - total 500ms
-[46] Arrived: t10 - enter t490 - destination t530 - total 520ms
-[48] Arrived: t10 - enter t490 - destination t530 - total 520ms
-[43] Arrived: t10 - enter t500 - destination t530 - total 520ms
-[97] Arrived: t30 - enter t490 - destination t540 - total 510ms
-[103] Arrived: t30 - enter t480 - destination t550 - total 520ms
-[75] Arrived: t20 - enter t530 - destination t550 - total 530ms
-[80] Arrived: t20 - enter t530 - destination t550 - total 530ms
-[102] Arrived: t30 - enter t670 - destination t710 - total 680ms
-[101] Arrived: t30 - enter t670 - destination t720 - total 690ms
+1,0,1,0,20,10,10,20
+6,0,1,0,20,10,10,20
+7,0,2,0,30,10,20,30
+10,1,2,0,30,20,10,30
+13,1,2,0,30,20,10,30
+2,0,3,0,40,10,30,40
+9,1,3,0,40,20,20,40
+16,2,3,0,40,30,10,40
+11,1,5,0,60,20,40,60
+19,2,5,0,60,30,30,60
+94,4,5,30,60,20,10,30
+3,0,6,0,70,10,60,70
+12,1,6,0,70,20,50,70
+4,0,8,0,90,10,80,90
+37,5,8,10,90,50,30,80
+40,5,8,10,90,50,30,80
+49,6,8,10,90,60,20,80
+96,6,8,30,90,40,20,60
+99,6,8,30,90,40,20,60
+5,0,9,0,100,10,90,100
+18,2,9,0,100,30,70,100
+41,5,9,10,100,50,40,90
+50,6,9,10,100,60,30,90
+113,8,9,30,100,60,10,70
+116,8,6,30,130,80,20,100
+114,8,5,30,140,80,30,110
+115,8,4,30,150,80,40,120
+111,8,3,30,160,80,50,130
+38,5,1,10,180,130,40,170
+88,9,0,20,190,80,90,170
+118,9,0,30,190,70,90,160
+29,8,0,0,190,110,80,190
+87,8,0,20,190,90,80,170
+112,8,0,30,190,80,80,160
+117,8,0,30,190,80,80,160
+44,6,0,10,190,120,60,180
+93,4,0,30,190,120,40,160
+23,3,0,0,190,160,30,190
+8,1,0,0,190,180,10,190
+60,0,1,20,200,170,10,180
+65,0,1,20,200,170,10,180
+66,0,2,20,210,170,20,190
+68,1,2,20,210,180,10,190
+61,0,3,20,220,170,30,200
+67,1,3,20,220,180,20,200
+20,2,4,0,230,210,20,230
+62,0,6,20,250,170,60,230
+21,2,6,0,250,210,40,250
+63,0,8,20,270,170,80,250
+14,1,8,0,270,200,70,270
+109,7,8,30,270,230,10,240
+64,0,9,20,280,170,90,260
+89,0,9,30,280,160,90,250
+15,1,9,0,280,200,80,280
+100,6,9,30,280,220,30,250
+53,7,9,10,280,250,20,270
+110,7,9,30,280,230,20,250
+56,7,6,10,310,290,10,300
+28,7,5,0,320,300,20,320
+54,7,5,10,320,290,20,310
+55,7,4,10,330,290,30,320
+51,7,3,10,340,290,40,330
+45,6,3,10,340,300,30,330
+39,5,3,10,340,310,20,330
+86,7,1,20,360,280,60,340
+42,5,1,10,360,310,40,350
+27,7,0,0,370,300,70,370
+52,7,0,10,370,290,70,360
+57,7,0,10,370,290,70,360
+85,7,0,20,370,280,70,350
+81,3,0,20,370,320,30,350
+17,2,0,0,370,350,20,370
+22,2,0,0,370,350,20,370
+33,2,0,10,370,340,20,360
+71,1,2,20,390,360,10,370
+74,2,3,20,400,370,10,380
+78,2,4,20,410,370,20,390
+69,1,5,20,420,360,40,400
+34,2,5,10,420,380,30,410
+77,2,5,20,420,370,30,400
+70,1,6,20,430,360,50,410
+79,2,6,20,430,370,40,410
+72,1,8,20,450,360,70,430
+73,1,9,20,460,360,80,440
+76,2,9,20,460,370,70,440
+107,7,6,30,490,450,10,460
+106,7,5,30,500,450,20,470
+47,6,5,10,500,480,10,490
+104,7,3,30,520,450,40,490
+98,6,3,30,520,460,30,490
+105,7,2,30,530,450,50,500
+108,7,2,30,530,450,50,500
+46,6,2,10,530,480,40,520
+48,6,2,10,530,480,40,520
+43,5,2,10,530,490,30,520
+97,6,1,30,540,460,50,510
+103,7,0,30,550,450,70,520
+75,2,0,20,550,510,20,530
+80,2,0,20,550,510,20,530
+102,6,2,30,710,640,40,680
+101,6,1,30,720,640,50,690
