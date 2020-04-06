@@ -15,7 +15,7 @@ namespace Elevator
         /// Reads content from file and converts it to a list of int arrays. 
         /// </summary>
         /// <returns></returns>
-        public static List<int[]> GetPassengers()
+        public static List<int[]> GetInput()
         {
             List<int[]> result = new List<int[]>();
 
@@ -31,6 +31,10 @@ namespace Elevator
             return result;
         }
 
+        /// <summary>
+        /// Generates a file displaying times for each served elevator-rider.
+        /// </summary>
+        /// <param name="passengers"></param>
         public static void GenerateOutput(List<Passenger> passengers)
         {
             try
@@ -46,6 +50,12 @@ namespace Elevator
             {
                 Console.WriteLine("Error writing result to file: " + e.Message);
             }
+        }
+
+        public static void PrintPath()
+        {
+            Console.WriteLine(path);
+            Console.WriteLine(file);
         }
 
         /// <summary>

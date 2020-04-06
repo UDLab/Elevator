@@ -6,6 +6,7 @@ namespace Elevator
 {
     public class Passenger
     {
+        private static int ID = 0;
         private int no;
         private int arrivedFloor;
         private int destinationFloor;
@@ -14,9 +15,10 @@ namespace Elevator
         public int elevatorEnteringTime { get; set; }
         public int elevatorLeavingTime { get; set; }
 
-        public Passenger(int no, int floor, int destination, int time)
+        public Passenger(int floor, int destination, int time)
         {
-            this.no = no;
+            ID++;
+            no = ID;
             arrivedFloor = floor;
             destinationFloor = destination;
             arrivedTime = time;

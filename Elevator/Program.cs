@@ -5,49 +5,53 @@ namespace Elevator
 {
     class Program
     {
-        static List<int[]> passengers;
+        static List<int[]> input;
         static int floors = 10;
+
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!\n");
-            ReadFileTest();
-            WriteFileTest();
-            Console.WriteLine("Press ANYTHING to exit...");
+            Initiate();
+            FileService.PrintPath();
             Console.ReadLine();
         }
 
-        private static void WriteFileTest()
+        private static void Initiate()
         {
-            Console.WriteLine("Testing write..");
-            List<Passenger> testpassengers = new List<Passenger>();
-            int count = 0;
-            for (int i = 0; i < passengers.Count; i++)
-            {
-                for (int j = 0; j < passengers[i].Length; j++)
-                {
-                    testpassengers.Add(new Passenger(count, (i % floors), passengers[i][j], i/floors));
-                    count++;
-                }
-            }
-            FileService.GenerateOutput(testpassengers);
-
-            Console.WriteLine("Write done!");
-            Console.WriteLine();
+            input = FileService.GetInput();
         }
 
-        private static void ReadFileTest()
-        {
-            passengers = FileService.GetPassengers();
+        //private static void WriteFileTest()
+        //{
+        //    Console.WriteLine("Testing write..");
+        //    List<Passenger> testpassengers = new List<Passenger>();
+        //    int count = 0;
+        //    for (int i = 0; i < input.Count; i++)
+        //    {
+        //        for (int j = 0; j < input[i].Length; j++)
+        //        {
+        //            testpassengers.Add(new Passenger(count, (i % floors), input[i][j], i/floors));
+        //            count++;
+        //        }
+        //    }
+        //    FileService.GenerateOutput(testpassengers);
 
-            Console.WriteLine("file contains: ");
-            foreach (int[] line in passengers)
-            {
-                printline(line);
-            }
-            Console.WriteLine();
-        }
+        //    Console.WriteLine("Write done!");
+        //    Console.WriteLine();
+        //}
 
-        static void printline(int[] line)
+        //private static void ReadFileTest()
+        //{
+        //    input = FileService.GetInput();
+
+        //    Console.WriteLine("file contains: ");
+        //    foreach (int[] line in input)
+        //    {
+        //        printline(line);
+        //    }
+        //    Console.WriteLine();
+        //}
+
+        static void PrintArray(int[] line)
         {
             for (int i = 0; i < line.Length - 1; i++)
             {
