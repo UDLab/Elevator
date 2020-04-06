@@ -7,10 +7,12 @@ namespace Elevator
     public class Floor
     {
         public List<Passenger> Queue;
+        public FloorStatus Status;
 
         public Floor()
         {
             Queue = new List<Passenger>();
+            Status = FloorStatus.NO_PRESSED;
         }
         public void Add(Passenger p)
         {
