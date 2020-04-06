@@ -31,6 +31,14 @@ namespace Elevator
         {
             Queue.Remove(p);
         }
+
+        public void Print()
+        {
+            foreach(Passenger p in Queue)
+            {
+                Console.Write(" {0}", p.GetDestination());
+            }
+        }
     }
     
     public enum FloorStatus

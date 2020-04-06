@@ -60,6 +60,17 @@ namespace Elevator
                 Status = ElevatorStatus.GOING_DOWN;
             }
         }
+
+        public void Print()
+        {
+            if(Riders.Count < 10)
+            {
+                Console.Write(" [{0}] ", Riders.Count);
+            } else
+            {
+                Console.Write(" [F] ");
+            }
+        }
     }
 
     public enum ElevatorStatus

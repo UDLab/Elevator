@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 
 namespace Elevator
 {
@@ -27,6 +28,7 @@ namespace Elevator
             input = FileService.GetInput();
             building = new Building(10, 10);
             AddNewPassengersToQueue();
+            Print();
         }
 
         /// <summary>
@@ -36,20 +38,32 @@ namespace Elevator
         {
             while (building.HasWaitingPassengers() || building.Elevator.Riders.Count > 0)
             {
-                //Print();
                 time += 10;
                 AddNewPassengersToQueue();
                 DisembarkPassengers(building.Elevator.AtFloor);
                 EmbarkPassengers(building.Elevator.AtFloor);
                 MoveElevator();
+                Print();
             }
             FileService.GenerateOutput(completed);
         }
 
         private static void Print()
         {
-            //Console.Clear();
-            //Console.WriteLine("test");
+            Thread.Sleep(100);
+            Console.Clear();
+            for (int i = 0; i < building.Floors.Count; i++)
+            {
+                if (building.Elevator.AtFloor == i)
+                {
+                    building.Elevator.Print();
+                } else
+                {
+                    Console.Write("     ");
+                }
+                building.Floors[i].Print();
+                Console.WriteLine();
+            }
         }
 
         /// <summary>
