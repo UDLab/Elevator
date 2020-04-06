@@ -1,60 +1,78 @@
-[0] Arrived at: t0, got on the elevator at t0, reached their destination at t0. Total time: 0 units
-[1] Arrived at: t0, got on the elevator at t0, reached their destination at t0. Total time: 0 units
-[2] Arrived at: t0, got on the elevator at t0, reached their destination at t0. Total time: 0 units
-[3] Arrived at: t0, got on the elevator at t0, reached their destination at t0. Total time: 0 units
-[4] Arrived at: t0, got on the elevator at t0, reached their destination at t0. Total time: 0 units
-[5] Arrived at: t0, got on the elevator at t0, reached their destination at t0. Total time: 0 units
-[6] Arrived at: t0, got on the elevator at t0, reached their destination at t0. Total time: 0 units
-[7] Arrived at: t0, got on the elevator at t0, reached their destination at t0. Total time: 0 units
-[8] Arrived at: t0, got on the elevator at t0, reached their destination at t0. Total time: 0 units
-[9] Arrived at: t0, got on the elevator at t0, reached their destination at t0. Total time: 0 units
-[10] Arrived at: t0, got on the elevator at t0, reached their destination at t0. Total time: 0 units
-[11] Arrived at: t0, got on the elevator at t0, reached their destination at t0. Total time: 0 units
-[12] Arrived at: t0, got on the elevator at t0, reached their destination at t0. Total time: 0 units
-[13] Arrived at: t0, got on the elevator at t0, reached their destination at t0. Total time: 0 units
-[14] Arrived at: t0, got on the elevator at t0, reached their destination at t0. Total time: 0 units
-[15] Arrived at: t0, got on the elevator at t0, reached their destination at t0. Total time: 0 units
-[16] Arrived at: t0, got on the elevator at t0, reached their destination at t0. Total time: 0 units
-[17] Arrived at: t0, got on the elevator at t0, reached their destination at t0. Total time: 0 units
-[18] Arrived at: t0, got on the elevator at t0, reached their destination at t0. Total time: 0 units
-[19] Arrived at: t0, got on the elevator at t0, reached their destination at t0. Total time: 0 units
-[20] Arrived at: t0, got on the elevator at t0, reached their destination at t0. Total time: 0 units
-[21] Arrived at: t0, got on the elevator at t0, reached their destination at t0. Total time: 0 units
-[22] Arrived at: t0, got on the elevator at t0, reached their destination at t0. Total time: 0 units
-[23] Arrived at: t0, got on the elevator at t0, reached their destination at t0. Total time: 0 units
-[24] Arrived at: t0, got on the elevator at t0, reached their destination at t0. Total time: 0 units
-[25] Arrived at: t0, got on the elevator at t0, reached their destination at t0. Total time: 0 units
-[26] Arrived at: t0, got on the elevator at t0, reached their destination at t0. Total time: 0 units
-[27] Arrived at: t0, got on the elevator at t0, reached their destination at t0. Total time: 0 units
-[28] Arrived at: t0, got on the elevator at t0, reached their destination at t0. Total time: 0 units
-[29] Arrived at: t0, got on the elevator at t0, reached their destination at t0. Total time: 0 units
-[30] Arrived at: t1, got on the elevator at t0, reached their destination at t0. Total time: -1 units
-[31] Arrived at: t1, got on the elevator at t0, reached their destination at t0. Total time: -1 units
-[32] Arrived at: t1, got on the elevator at t0, reached their destination at t0. Total time: -1 units
-[33] Arrived at: t1, got on the elevator at t0, reached their destination at t0. Total time: -1 units
-[34] Arrived at: t1, got on the elevator at t0, reached their destination at t0. Total time: -1 units
-[35] Arrived at: t1, got on the elevator at t0, reached their destination at t0. Total time: -1 units
-[36] Arrived at: t1, got on the elevator at t0, reached their destination at t0. Total time: -1 units
-[37] Arrived at: t1, got on the elevator at t0, reached their destination at t0. Total time: -1 units
-[38] Arrived at: t1, got on the elevator at t0, reached their destination at t0. Total time: -1 units
-[39] Arrived at: t1, got on the elevator at t0, reached their destination at t0. Total time: -1 units
-[40] Arrived at: t1, got on the elevator at t0, reached their destination at t0. Total time: -1 units
-[41] Arrived at: t1, got on the elevator at t0, reached their destination at t0. Total time: -1 units
-[42] Arrived at: t1, got on the elevator at t0, reached their destination at t0. Total time: -1 units
-[43] Arrived at: t1, got on the elevator at t0, reached their destination at t0. Total time: -1 units
-[44] Arrived at: t1, got on the elevator at t0, reached their destination at t0. Total time: -1 units
-[45] Arrived at: t1, got on the elevator at t0, reached their destination at t0. Total time: -1 units
-[46] Arrived at: t1, got on the elevator at t0, reached their destination at t0. Total time: -1 units
-[47] Arrived at: t1, got on the elevator at t0, reached their destination at t0. Total time: -1 units
-[48] Arrived at: t1, got on the elevator at t0, reached their destination at t0. Total time: -1 units
-[49] Arrived at: t1, got on the elevator at t0, reached their destination at t0. Total time: -1 units
-[50] Arrived at: t1, got on the elevator at t0, reached their destination at t0. Total time: -1 units
-[51] Arrived at: t1, got on the elevator at t0, reached their destination at t0. Total time: -1 units
-[52] Arrived at: t1, got on the elevator at t0, reached their destination at t0. Total time: -1 units
-[53] Arrived at: t1, got on the elevator at t0, reached their destination at t0. Total time: -1 units
-[54] Arrived at: t1, got on the elevator at t0, reached their destination at t0. Total time: -1 units
-[55] Arrived at: t1, got on the elevator at t0, reached their destination at t0. Total time: -1 units
-[56] Arrived at: t1, got on the elevator at t0, reached their destination at t0. Total time: -1 units
-[57] Arrived at: t1, got on the elevator at t0, reached their destination at t0. Total time: -1 units
-[58] Arrived at: t1, got on the elevator at t0, reached their destination at t0. Total time: -1 units
-[59] Arrived at: t1, got on the elevator at t0, reached their destination at t0. Total time: -1 units
+[1] Arrived: t0 - enter t10 - destination t20 - total 20ms
+[6] Arrived: t0 - enter t10 - destination t20 - total 20ms
+[31] Arrived: t10 - enter t10 - destination t20 - total 10ms
+[7] Arrived: t0 - enter t10 - destination t30 - total 30ms
+[10] Arrived: t0 - enter t20 - destination t30 - total 30ms
+[2] Arrived: t0 - enter t10 - destination t40 - total 40ms
+[32] Arrived: t10 - enter t10 - destination t40 - total 30ms
+[9] Arrived: t0 - enter t20 - destination t40 - total 40ms
+[16] Arrived: t0 - enter t30 - destination t40 - total 40ms
+[11] Arrived: t0 - enter t20 - destination t60 - total 60ms
+[3] Arrived: t0 - enter t10 - destination t70 - total 70ms
+[33] Arrived: t10 - enter t10 - destination t70 - total 60ms
+[4] Arrived: t0 - enter t10 - destination t90 - total 90ms
+[5] Arrived: t0 - enter t10 - destination t100 - total 100ms
+[18] Arrived: t0 - enter t30 - destination t100 - total 100ms
+[28] Arrived: t0 - enter t120 - destination t140 - total 140ms
+[89] Arrived: t20 - enter t120 - destination t140 - total 120ms
+[58] Arrived: t10 - enter t120 - destination t180 - total 170ms
+[60] Arrived: t10 - enter t100 - destination t190 - total 180ms
+[59] Arrived: t10 - enter t110 - destination t190 - total 180ms
+[27] Arrived: t0 - enter t120 - destination t190 - total 190ms
+[57] Arrived: t10 - enter t120 - destination t190 - total 180ms
+[88] Arrived: t20 - enter t120 - destination t190 - total 170ms
+[23] Arrived: t0 - enter t160 - destination t190 - total 190ms
+[53] Arrived: t10 - enter t160 - destination t190 - total 180ms
+[84] Arrived: t20 - enter t160 - destination t190 - total 170ms
+[17] Arrived: t0 - enter t170 - destination t190 - total 190ms
+[8] Arrived: t0 - enter t180 - destination t190 - total 190ms
+[36] Arrived: t10 - enter t190 - destination t200 - total 190ms
+[62] Arrived: t20 - enter t190 - destination t200 - total 180ms
+[37] Arrived: t10 - enter t190 - destination t210 - total 200ms
+[13] Arrived: t0 - enter t200 - destination t210 - total 210ms
+[63] Arrived: t20 - enter t190 - destination t220 - total 200ms
+[20] Arrived: t0 - enter t210 - destination t230 - total 230ms
+[19] Arrived: t0 - enter t210 - destination t240 - total 240ms
+[64] Arrived: t20 - enter t190 - destination t250 - total 230ms
+[12] Arrived: t0 - enter t200 - destination t250 - total 250ms
+[34] Arrived: t10 - enter t190 - destination t270 - total 260ms
+[61] Arrived: t20 - enter t190 - destination t270 - total 250ms
+[65] Arrived: t20 - enter t190 - destination t270 - total 250ms
+[35] Arrived: t10 - enter t190 - destination t280 - total 270ms
+[66] Arrived: t20 - enter t190 - destination t280 - total 260ms
+[22] Arrived: t0 - enter t350 - destination t370 - total 370ms
+[47] Arrived: t10 - enter t350 - destination t370 - total 360ms
+[52] Arrived: t10 - enter t350 - destination t370 - total 360ms
+[78] Arrived: t20 - enter t350 - destination t370 - total 350ms
+[83] Arrived: t20 - enter t350 - destination t370 - total 350ms
+[38] Arrived: t10 - enter t360 - destination t370 - total 360ms
+[69] Arrived: t20 - enter t360 - destination t370 - total 350ms
+[67] Arrived: t20 - enter t370 - destination t380 - total 360ms
+[68] Arrived: t20 - enter t370 - destination t390 - total 370ms
+[40] Arrived: t10 - enter t380 - destination t390 - total 380ms
+[43] Arrived: t10 - enter t380 - destination t390 - total 380ms
+[39] Arrived: t10 - enter t380 - destination t400 - total 390ms
+[46] Arrived: t10 - enter t390 - destination t400 - total 390ms
+[41] Arrived: t10 - enter t380 - destination t420 - total 410ms
+[42] Arrived: t10 - enter t380 - destination t430 - total 420ms
+[21] Arrived: t0 - enter t390 - destination t430 - total 430ms
+[14] Arrived: t0 - enter t380 - destination t450 - total 450ms
+[44] Arrived: t10 - enter t380 - destination t450 - total 440ms
+[15] Arrived: t0 - enter t380 - destination t460 - total 460ms
+[45] Arrived: t10 - enter t380 - destination t460 - total 450ms
+[48] Arrived: t10 - enter t390 - destination t460 - total 450ms
+[71] Arrived: t20 - enter t560 - destination t570 - total 550ms
+[74] Arrived: t20 - enter t560 - destination t570 - total 550ms
+[70] Arrived: t20 - enter t560 - destination t580 - total 560ms
+[77] Arrived: t20 - enter t570 - destination t580 - total 560ms
+[50] Arrived: t10 - enter t570 - destination t590 - total 580ms
+[72] Arrived: t20 - enter t560 - destination t600 - total 580ms
+[49] Arrived: t10 - enter t570 - destination t600 - total 590ms
+[73] Arrived: t20 - enter t560 - destination t610 - total 590ms
+[51] Arrived: t10 - enter t570 - destination t610 - total 600ms
+[75] Arrived: t20 - enter t560 - destination t630 - total 610ms
+[76] Arrived: t20 - enter t560 - destination t640 - total 620ms
+[79] Arrived: t20 - enter t570 - destination t640 - total 620ms
+[81] Arrived: t20 - enter t750 - destination t770 - total 750ms
+[80] Arrived: t20 - enter t750 - destination t780 - total 760ms
+[82] Arrived: t20 - enter t750 - destination t790 - total 770ms

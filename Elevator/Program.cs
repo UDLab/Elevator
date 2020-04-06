@@ -9,7 +9,7 @@ namespace Elevator
         static int time = 0;
         static Building building;
         static List<int[]> input;
-        static string res = "";
+        static List<Passenger> completed = new List<Passenger>();
 
         static void Main(string[] args)
         {
@@ -36,12 +36,20 @@ namespace Elevator
         {
             while (building.HasWaitingPassengers() || building.Elevator.Riders.Count > 0)
             {
+                //Print();
                 time += 10;
                 AddNewPassengersToQueue();
                 DisembarkPassengers(building.Elevator.AtFloor);
                 EmbarkPassengers(building.Elevator.AtFloor);
                 MoveElevator();
             }
+            FileService.GenerateOutput(completed);
+        }
+
+        private static void Print()
+        {
+            //Console.Clear();
+            //Console.WriteLine("test");
         }
 
         /// <summary>
@@ -96,16 +104,10 @@ namespace Elevator
                 {
                     building.Elevator.Riders.Remove(p);
                     p.AddLeavingTime(time);
-                    DocumentPassenger(p);
+                    completed.Add(p);
+                    p.Print();
                 }
             }
-        }
-
-        private static void DocumentPassenger(Passenger p)
-        {
-            Console.WriteLine(p.Print());
-            res += p.Print();
-            res += "\n";
         }
 
         /// <summary>

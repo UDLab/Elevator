@@ -52,6 +52,13 @@ namespace Elevator
         public void Move(int i)
         {
             AtFloor += i;
+            if(AtFloor == 0)
+            {
+                Status = ElevatorStatus.GOING_UP;
+            } else if(AtFloor == 9)
+            {
+                Status = ElevatorStatus.GOING_DOWN;
+            }
         }
     }
 
