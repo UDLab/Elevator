@@ -24,7 +24,6 @@ namespace Elevator
             Queue.Remove(p);
         }
     }
-
     
     public enum FloorStatus
     {

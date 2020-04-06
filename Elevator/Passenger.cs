@@ -23,10 +23,25 @@ namespace Elevator
             destinationFloor = destination;
             arrivedTime = time;
         }
+
+        public int GetDestination()
+        {
+            return destinationFloor;
+        }
         
         public string Print()
         {
-            return String.Format("[{0}] Arrived at: t{1}, got on the elevator at t{2}, reached their destination at t{3}. Total time: {4} units", no, arrivedTime, elevatorEnteringTime, elevatorLeavingTime, (elevatorLeavingTime - arrivedTime));
+            return String.Format("[{0}] Arrived: t{1} - enter t{2} - destination t{3} - total {4}ms", no, arrivedTime, elevatorEnteringTime, elevatorLeavingTime, (elevatorLeavingTime - arrivedTime));
+        }
+
+        internal void AddEnteringTime(int time)
+        {
+            elevatorEnteringTime = time;
+        }
+
+        internal void AddLeavingTime(int time)
+        {
+            elevatorLeavingTime = time;
         }
     }
 }
