@@ -14,6 +14,11 @@ namespace Elevator
             Queue = new List<Passenger>();
             Status = FloorStatus.NO_PRESSED;
         }
+
+        /// <summary>
+        /// Adds passenger if destination exists.
+        /// </summary>
+        /// <param name="p"></param>
         public void Add(Passenger p)
         {
             if(p.GetDestination() != -1)

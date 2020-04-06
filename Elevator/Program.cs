@@ -19,6 +19,9 @@ namespace Elevator
             Console.ReadLine();
         }
 
+        /// <summary>
+        /// Initializes input data from file and creates building with elevator. Reads once from input to get into while loop in "Start()".
+        /// </summary>
         private static void Initiate()
         {
             input = FileService.GetInput();
@@ -26,6 +29,9 @@ namespace Elevator
             AddNewPassengersToQueue();
         }
 
+        /// <summary>
+        /// Main loop. Adds time -> Reads input file for new passengers -> Operates elevator.
+        /// </summary>
         private static void Start()
         {
             while (building.HasWaitingPassengers() || building.Elevator.Riders.Count > 0)
@@ -132,47 +138,5 @@ namespace Elevator
                     break;
             }
         }
-        
-
-        //private static void WriteFileTest()
-        //{
-        //    Console.WriteLine("Testing write..");
-        //    List<Passenger> testpassengers = new List<Passenger>();
-        //    int count = 0;
-        //    for (int i = 0; i < input.Count; i++)
-        //    {
-        //        for (int j = 0; j < input[i].Length; j++)
-        //        {
-        //            testpassengers.Add(new Passenger(count, (i % floors), input[i][j], i/floors));
-        //            count++;
-        //        }
-        //    }
-        //    FileService.GenerateOutput(testpassengers);
-
-        //    Console.WriteLine("Write done!");
-        //    Console.WriteLine();
-        //}
-
-        //private static void ReadFileTest()
-        //{
-        //    input = FileService.GetInput();
-
-        //    Console.WriteLine("file contains: ");
-        //    foreach (int[] line in input)
-        //    {
-        //        printline(line);
-        //    }
-        //    Console.WriteLine();
-        //}
-
-        //static void PrintArray(int[] line)
-        //{
-        //    for (int i = 0; i < line.Length - 1; i++)
-        //    {
-        //        Console.Write(line[i] + ", ");
-        //    }
-        //    Console.Write(line[line.Length-1]);
-        //    Console.WriteLine();
-        //}
-        }
     }
+}

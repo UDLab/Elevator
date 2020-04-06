@@ -11,6 +11,10 @@ namespace Elevator
         public ElevatorStatus Status { get; set; }
         public List<Passenger> Riders { get; set; }
 
+        /// <summary>
+        /// Will always start at floor 0, going up.
+        /// </summary>
+        /// <param name="capacity"></param>
         public Elevator(int capacity)
         {
             Capacity = capacity;
@@ -34,6 +38,11 @@ namespace Elevator
             return Riders.Count < Capacity;
         }
 
+        /// <summary>
+        /// If passengers destination is below an elevator going downwards, or above an elevator going upwards.
+        /// </summary>
+        /// <param name="p"></param>
+        /// <returns></returns>
         public bool GoingCorrectDirection(Passenger p)
         {
             return p.GetDestination() < AtFloor && (Status == ElevatorStatus.GOING_DOWN || Status == ElevatorStatus.STATIC) || 

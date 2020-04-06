@@ -15,6 +15,12 @@ namespace Elevator
         public int elevatorEnteringTime { get; set; }
         public int elevatorLeavingTime { get; set; }
 
+        /// <summary>
+        /// Increments shared id-variable. Sets initial values.
+        /// </summary>
+        /// <param name="floor"></param>
+        /// <param name="destination"></param>
+        /// <param name="time"></param>
         public Passenger(int floor, int destination, int time)
         {
             ID++;
@@ -29,17 +35,21 @@ namespace Elevator
             return destinationFloor;
         }
         
+        /// <summary>
+        /// For testing output.
+        /// </summary>
+        /// <returns></returns>
         public string Print()
         {
             return String.Format("[{0}] Arrived: t{1} - enter t{2} - destination t{3} - total {4}ms", no, arrivedTime, elevatorEnteringTime, elevatorLeavingTime, (elevatorLeavingTime - arrivedTime));
         }
 
-        internal void AddEnteringTime(int time)
+        public void AddEnteringTime(int time)
         {
             elevatorEnteringTime = time;
         }
 
-        internal void AddLeavingTime(int time)
+        public void AddLeavingTime(int time)
         {
             elevatorLeavingTime = time;
         }

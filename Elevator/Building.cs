@@ -20,6 +20,10 @@ namespace Elevator
             }
         }
 
+        /// <summary>
+        /// If any floor still has any passengers in their queue.
+        /// </summary>
+        /// <returns></returns>
         public bool HasWaitingPassengers()
         {
             foreach(Floor f in Floors)
