@@ -36,12 +36,12 @@ namespace Elevator
         /// </summary>
         private static void Start()
         {
-            while (building.HasWaitingPassengers() || building.Elevator.Riders.Count > 0)
+            while (building.HasWaitingPassengers() || building.PassengersInElevator())
             {
                 time += 10;
                 AddNewPassengersToQueue();
-                DisembarkPassengers(building.Elevator.AtFloor);
-                EmbarkPassengers(building.Elevator.AtFloor);
+                DisembarkPassengers(building.ElevatorAtFloor);
+                EmbarkPassengers(building.ElevatorAtFloor);
                 MoveElevator();
                 Print();
             }
@@ -55,7 +55,7 @@ namespace Elevator
             for (int i = building.Floors.Count -1 ; i >= 0; i--)
             {
                 Console.Write("[FLOOR {0}] : ", i);
-                if (building.Elevator.AtFloor == i)
+                if (building.ElevatorAtFloor == i)
                 {
                     building.Elevator.Print();
                 } else
@@ -98,9 +98,9 @@ namespace Elevator
             {
                 if (building.Elevator.GoingCorrectDirection(p) && building.Elevator.HasRoom())
                 {
-                    building.Elevator.Riders.Add(p);
+                    building.Elevator.Add(p);
                     p.AddEnteringTime(time);
-                    building.Floors[floor].Remove(p);
+                    building.RemovePassenger(p, floor);
                 }
             }
         }
@@ -115,12 +115,11 @@ namespace Elevator
             building.Elevator.Riders.CopyTo(copy);
             foreach (Passenger p in copy)
             {
-                if(building.Elevator.AtFloor == p.GetDestination())
+                if(building.ElevatorAtFloor == p.GetDestination())
                 {
-                    building.Elevator.Riders.Remove(p);
+                    building.Elevator.Remove(p);
                     p.AddLeavingTime(time);
                     completed.Add(p);
-                    p.Print();
                 }
             }
         }
@@ -133,7 +132,7 @@ namespace Elevator
             switch (building.Elevator.Status)
             {
                 case ElevatorStatus.GOING_UP:
-                    if(building.Elevator.AtFloor + 1 < building.NrOfFloors)
+                    if(building.ElevatorAtFloor + 1 < building.NrOfFloors)
                     {
                         building.Elevator.Move(1);
                     } else
@@ -143,7 +142,7 @@ namespace Elevator
                     }
                     break;
                 case ElevatorStatus.GOING_DOWN:
-                    if (building.Elevator.AtFloor > 0)
+                    if (building.ElevatorAtFloor > 0)
                     {
                         building.Elevator.Move(-1);
                     }
