@@ -49,13 +49,13 @@ namespace Elevator
                 p.GetDestination() > AtFloor && (Status == ElevatorStatus.GOING_UP || Status == ElevatorStatus.STATIC);
         }
 
-        public void Move(int i)
+        public void Move(int i, int max)
         {
             AtFloor += i;
             if(AtFloor == 0)
             {
                 Status = ElevatorStatus.GOING_UP;
-            } else if(AtFloor == 9)
+            } else if(AtFloor == max - 1)
             {
                 Status = ElevatorStatus.GOING_DOWN;
             }
@@ -63,7 +63,7 @@ namespace Elevator
 
         public void Print()
         {
-            if(Riders.Count < 10)
+            if(Riders.Count < Capacity)
             {
                 Console.Write(" [{0}] ", Riders.Count);
             } else

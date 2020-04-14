@@ -106,23 +106,23 @@ namespace Elevator
                 case ElevatorStatus.GOING_UP:
                     if (building.ElevatorAtFloor + 1 < building.NrOfFloors)
                     {
-                        building.Elevator.Move(1);
+                        building.Elevator.Move(1, building.NrOfFloors);
                     }
                     else
                     {
                         building.Elevator.Status = ElevatorStatus.GOING_DOWN;
-                        building.Elevator.Move(-1);
+                        building.Elevator.Move(-1, building.NrOfFloors);
                     }
                     break;
                 case ElevatorStatus.GOING_DOWN:
                     if (building.ElevatorAtFloor > 0)
                     {
-                        building.Elevator.Move(-1);
+                        building.Elevator.Move(-1, building.NrOfFloors);
                     }
                     else
                     {
                         building.Elevator.Status = ElevatorStatus.GOING_UP;
-                        building.Elevator.Move(1);
+                        building.Elevator.Move(1, building.NrOfFloors);
                     }
                     break;
             }
